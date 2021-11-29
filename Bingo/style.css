@@ -1,0 +1,195 @@
+body {
+    margin: auto;
+    height: 781px;
+}
+
+p {
+    margin: 10px;
+}
+
+#lewoiprawo {
+    height: 100%;
+    width: 100%;
+}
+
+.header, .footer {
+    background-color: gray;
+}
+
+.header {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lewo {
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(116, 162, 170);
+}
+
+#lewo1 {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;  
+    margin-bottom: auto;  
+    background-color: rgb(40, 52, 54);
+}
+
+.lewo2 {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 84%;
+}
+
+#prawo {
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(121, 213, 230);
+}
+
+.prawo1 {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 81.40%;
+}
+
+.prawo2 {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 18.60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.ballsmall {
+    width: 70px;
+	height: 70px;
+	margin-top: 25px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.ballbig {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.ballsmall, .ballbig {
+    float: left;
+	background-color: antiquewhite;
+	border: solid 2px;
+	border-radius: 100%;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+table {
+	margin: auto;
+	border-style: solid; 
+	border-width: 3px;
+	border-color: rgb(0, 0, 0);
+	background-color: #232324; 
+	padding: 0px;
+    width: 500px;
+    height: 500px;
+    border-radius: 42px;
+}
+
+td {
+	width: 40px;
+	height: 40px;
+	border: solid 1px;
+	background-color: rgb(138, 150, 31);
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+    border-radius: 42px;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#h4 {
+    margin: 30px 0px 30px 0px;
+    font-family: Bradley Hand, cursive;
+}
+
+#button {
+    width: 100%;
+    background: linear-gradient(to bottom, #c78245 5%, #fa460f 100%);
+	background-color: #c78245;
+	border-radius: 42px;
+	border: 2px solid #ab1919;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0px 76px;
+	text-decoration: none;
+    text-shadow: 4px 2px 2px #5a7e96;
+}
+#button:hover {
+    background: linear-gradient(to bottom, #fa460f 5%, #c78245 100%);
+	background-color: #fa460f;
+}
+#button:active {
+    position: relative;
+	top: 1px;
+}
+
+#button1 {
+    background-color: #F4A460;
+    border-radius: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#button1:hover {
+	background-color: #FFFF00;
+}
+#button1:active {
+    position: relative;
+    top: 3px;
+}
